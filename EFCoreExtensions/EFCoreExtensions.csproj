@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Description>EntityFrameworkCore Extensions</Description>
+    <Copyright></Copyright>
+    <AssemblyTitle>EFCoreExtensions</AssemblyTitle>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <Authors>Jorge Jimenez;</Authors>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>EFCoreExtensions</AssemblyName>
+    <PackageId>EFCoreExtensions</PackageId>
+    <PackageTags>.Net Core</PackageTags>
+    <PackageIconUrl></PackageIconUrl>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <PackageReleaseNotes>+ 1.0.0 =&gt; GetPaged from IQueryable</PackageReleaseNotes>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Reflection.Extensions" Version="4.3.0" />
+    <PackageReference Include="System.Reflection.TypeExtensions" Version="4.5.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.2" />
+  </ItemGroup>
+  <Target Name="PostcompileScript" AfterTargets="Build">
+    <Exec Command="dotnet pack --no-build --configuration $(Configuration)" />
+  </Target>
+</Project>
