@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup Label="Globals">
     <SccProjectName>SAK</SccProjectName>
     <SccProvider>SAK</SccProvider>
@@ -14,8 +14,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>EFCoreExtensions</AssemblyName>
     <PackageId>EFCoreExtensions</PackageId>
-    <PackageTags>.Net Entity Framework Core EFCore Extensions Paged</PackageTags>
-    <PackageIconUrl></PackageIconUrl>
+    <PackageTags>.Net Entity Framework Core EFCore Extensions Paged Pagination</PackageTags>
+    <PackageIconUrl>https://raw.githubusercontent.com/jjimenezg88/EFCoreExtensions/master/Icon.ico</PackageIconUrl>
     <PackageProjectUrl>https://github.com/jjimenezg88/EFCoreExtensions</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/jjimenezg88/EFCoreExtensions/blob/master/LICENSE</PackageLicenseUrl>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
