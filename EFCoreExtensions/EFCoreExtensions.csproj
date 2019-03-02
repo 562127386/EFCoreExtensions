@@ -14,7 +14,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>EFCoreExtensions</AssemblyName>
     <PackageId>EFCoreExtensions</PackageId>
-    <PackageTags>.Net Core</PackageTags>
+    <PackageTags>.Net Entity Framework Core EFCore Extensions Paged</PackageTags>
     <PackageIconUrl></PackageIconUrl>
     <PackageProjectUrl>https://github.com/jjimenezg88/EFCoreExtensions</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/jjimenezg88/EFCoreExtensions/blob/master/LICENSE</PackageLicenseUrl>
@@ -22,10 +22,11 @@
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.0</Version>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
-    <FileVersion>1.0.0</FileVersion>
-    <PackageReleaseNotes>+ 1.0.0  =&gt; GetPaged from IQueryable</PackageReleaseNotes>
+    <Version>1.0.0.1</Version>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <PackageReleaseNotes>+ 1.0.0  =&gt; GetPaged from IQueryable
++ 1.0.0.1 =&gt; Add More Tags</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/jjimenezg88/EFCoreExtensions</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
