@@ -426,7 +426,7 @@ namespace EFCoreExtensions.Test
         public void WhereLike_FirsName_EndWith()
         {
             var stringValue = "me 11";
-            var first = Context.People.Where(x => EF.Functions.Like(x.FirstName, $"%{stringValue} ")).FirstOrDefault();
+            var first = Context.People.Where(x => EF.Functions.Like(x.FirstName, $"%{stringValue}")).FirstOrDefault();
             var result = Context.People.WhereLike(nameof(PersonEntity.FirstName), stringValue, LikeOptions.EndWith).FirstOrDefault();
             Assert.True(first.Equal(result));
         }
